@@ -3,3 +3,6 @@
 Made by KS, CustomNPC, DollarNoob
 
 Chrome Driver 에러날시 릴리즈에 올려둔 해결 방법 찾아서 해결 해주세요.
+
+
+FREE DISCORD TOKEN NUKER BUT POWERFUL
