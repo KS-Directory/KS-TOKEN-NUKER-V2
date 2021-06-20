@@ -8,6 +8,8 @@ TokenGrabber.cs는 오직 오토조인 사용을 위한 용도입니다. 보기 
 
 FREE DISCORD TOKEN NUKER BUT POWERFUL
 
+KS DIR: https://discord.gg/zeTsDjf9ZR or http://gg.gg/ksdir
+
 KS SHOP: https://discord.gg/e5cK2McbDE or https://discord.gg/korean
 
 KS 대피소: https://discord.gg/DHz3UCY
