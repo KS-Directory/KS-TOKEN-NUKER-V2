@@ -10,6 +10,6 @@ FREE DISCORD TOKEN NUKER BUT POWERFUL
 
 KS DIR: https://discord.gg/zeTsDjf9ZR or http://gg.gg/ksdir
 
-KS SHOP: https://discord.gg/e5cK2McbDE or https://discord.gg/korean
+KS SHOP: https://discord.gg/Gd2Az7tJ8s or https://discord.gg/korean
 
 KS 대피소: https://discord.gg/DHz3UCY
