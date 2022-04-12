@@ -11,8 +11,7 @@ TokenGrabber.cs는 오직 오토조인 사용을 위한 용도입니다. 보기 
 
 FREE DISCORD TOKEN NUKER BUT POWERFUL
 
-KS DIR: https://discord.gg/zeTsDjf9ZR or http://gg.gg/ksdir
+KS SHOP(망했지만 초대코드 살아있음): https://discord.gg/Gd2Az7tJ8s
 
-KS SHOP: https://discord.gg/Gd2Az7tJ8s or https://discord.gg/korean
-
-KS 대피소: https://discord.gg/DHz3UCY
+### 4/12/2022 작성
+- 지금은 막혔을 것으로 추청됨. 디코가 하도 패치를 많이해서..
